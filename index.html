@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">        
+    <title>Coin Converter</title>
+</head>
+
+<body>
+    <img src="./assets/piggy-bank-20103.gif" alt="logo-coin-converter" class="logo">
+
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select>
+                <option>R$ <b>Real Brasileiro</b></option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select>
+                <option>US$ <b>Dólar Americano</b></option>
+                <option>€ <b>Euro</b></option>
+            </select>
+        </label>
+
+        <label>
+            Valor
+            <input class="input-currency" placeholder="R$ 10.000,00">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+            <div class="currency-box">
+                <img src="./assets/brasil 2.png" alt="logo-moeda-a-converter">
+                <p class="currency">Real</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
+            </div>
+
+            <img class="arrow-img" src="./assets/Vector.png" alt="seta">
+
+            <div class="currency-box">
+                <img src="./assets/estados-unidos (1) 1.png" alt="logo-moeda-convertida">
+                <p class="currency">Dólar</p>
+                <p class="currency-value">US$ 0.0</p>
+            </div>
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
