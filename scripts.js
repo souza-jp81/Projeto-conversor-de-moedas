@@ -11,7 +11,7 @@ function convertValues() {
     const dolarToday = 5.64
     const euroToday = 6.38
     const poundToday = 7.57
-    const realToday = 
+     
 
     if (currencySelect.value == "dolar") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
@@ -63,9 +63,7 @@ function changeCurrency() {
     convertValues()
 }
 
-function changeCurrencyBack(){}
 
 
 convertButton.addEventListener("click", convertValues)
 currencySelect.addEventListener("change", changeCurrency)
-currencyToConvert.addEventListener("change", changeCurrencyBack)
